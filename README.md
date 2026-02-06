@@ -138,6 +138,14 @@ Recommended:
 🔑 Login Flow
 1. Open login.html
 2. Login using valid credentials
+
+## Demo Login Credentials
+
+Use the following credentials to log in:
+
+- **Username:** admin  
+- **Password:** admin123
+
 3. Redirects to Dashboard
 4. Sidebar navigation:
 
