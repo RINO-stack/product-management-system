@@ -86,14 +86,13 @@ project-root/
 ---
 
 ## ⚙️ Setup Instructions
-
-### 1️⃣ Clone the Repository
 ```bash
+
+1️⃣ Clone the Repository
 git clone <repository-url>
 cd project-root
 
 2️⃣ Setup MySQL Database
-
 1. Login to MySQL:
 mysql -u root -p
 
