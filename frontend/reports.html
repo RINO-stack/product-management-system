@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reports</title>
+  <link rel="stylesheet" href="css/reports.css" />
+</head>
+<body>
+
+   <!-- Auth Guard -->
+  <script>
+    if (!localStorage.getItem("loggedIn")) {
+      window.location.href = "login.html";
+    }
+  </script>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">ProductCORE.</h2>
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li class="active"><a href="reports.html">Reports</a></li>
+      <li><a href="#" onclick="logout()">Logout</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <h2>Reports Overview</h2>
+
+    <section class="stats">
+      <div class="stat-card">
+        <h4>Total Products</h4>
+        <p id="totalProducts">0</p>
+      </div>
+
+      <div class="stat-card">
+        <h4>Total Inventory Value</h4>
+        <p id="totalValue">₹0</p>
+      </div>
+
+      <div class="stat-card">
+        <h4>Average Price</h4>
+        <p id="avgPrice">₹0</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/auth.js"></script>
+  <script src="js/reports.js"></script>
+</body>
+</html>

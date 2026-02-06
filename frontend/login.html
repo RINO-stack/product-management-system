@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login | Product Management</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="login-wrapper">
+    <div class="login-card">
+      <h2>Log in</h2>
+      <p class="subtitle">to manage products</p>
+
+      <form id="loginForm">
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Enter username" required />
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter password" required />
+
+        <a href="#" class="forgot">Forgot password?</a>
+
+        <button type="submit">Log in →</button>
+      </form>
+
+      <p id="errorMsg"></p>
+    </div>
+  </div>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
