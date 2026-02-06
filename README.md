@@ -143,8 +143,8 @@ Recommended:
 
 Use the following credentials to log in:
 
-- **Username:** admin  
-- **Password:** admin123
+- Username: admin  
+- Password: admin123
 
 3. Redirects to Dashboard
 4. Sidebar navigation:
